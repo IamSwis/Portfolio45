@@ -6,11 +6,15 @@
 
 .about-image-container {
     
-    width: 40%;
+    width: 30%;
+    height: 100%;
 }
 
 .about-image-container img {
     width: 60%;
+
+    object-fit: cover;
+    object-position: center 50%;
 }
 
 .about-description-container{
