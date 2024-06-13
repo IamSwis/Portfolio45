@@ -29,3 +29,56 @@
     gap: 1.5rem;
     padding: 2rem;
 }
+
+.project-card{
+    background-color: rgba(137, 43, 226, 0.575);
+    width: 25rem;
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 1%;
+}
+
+.project-card:hover {
+    opacity: 0.5;
+    border: solid 1px var(--primary-color-100);
+}
+
+.project-card img {
+    width: 100%;
+}
+
+.skills-list {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+a p:nth-child(2){
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin: 0.5rem 0px;
+    color: var(secondary-color-300)
+}
+
+a p:nth-child(3){
+    font-style: italic;
+}
+
+a p:nth-child(4){
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.projects-list{
+    margin: 2rem 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+}
+
+

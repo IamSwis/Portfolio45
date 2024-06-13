@@ -20,6 +20,23 @@
         height: 30rem;
         object-position: center 40%;
     }
+
+    .project-card{
+        width: 100%;
+    }
+
+    .project-card img{
+        width: 100%;
+        height: 25rem;
+        object-fit: cover;
+        object-position: center 50%;
+    }
+
+    .project-card a {
+        width: 100%;
+        height: min-content;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 640px) {
